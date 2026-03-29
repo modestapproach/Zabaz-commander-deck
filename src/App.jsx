@@ -48,7 +48,7 @@ export default function App() {
             cursor: "pointer",
             fontWeight: page === "set" ? 700 : 400,
           }}
-        >EOE Set Browser</button>
+        >Visual Browser</button>
       </div>
 
       {page === "deck" ? <ZabazDeck /> : <SetBrowser />}
